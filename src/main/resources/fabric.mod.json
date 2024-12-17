@@ -3,15 +3,13 @@
 	"id": "herosbedoptimizer",
 	"version": "${version}",
 	"name": "HerosBedOptimizer",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Optimization that fixes waiting on the server after bed explosion before bed block is removed. Replaces it with translucent ghost bed to not change functionality of air-placing.",
 	"authors": [
-		"Me!"
+		"HerobaneNair",
+		"HerobaneNair (again)"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
+	"contact": {},
+	"license": "MIT",
 	"icon": "assets/herosbedoptimizer/icon.png",
 	"environment": "*",
 	"entrypoints": {
