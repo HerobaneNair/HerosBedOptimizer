@@ -15,20 +15,10 @@
 	"icon": "assets/herosbedoptimizer/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"hero.bane.HerosBedOptimizer"
-		],
 		"client": [
 			"hero.bane.HerosBedOptimizerClient"
 		]
 	},
-	"mixins": [
-		"herosbedoptimizer.mixins.json",
-		{
-			"config": "herosbedoptimizer.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
 		"minecraft": "~1.21",
